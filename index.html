@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
     <section class="banner">
     <header>
         <div class="container header-content">
@@ -42,43 +41,90 @@
         </div>
     </div>
 
-
     </section>
 
     <section id="categorias" class="categorias container">
         <h2 class="section-title"> < my projects so far/> </h2>
-        <h2>PARA WEB:</h2>
+        <h2>FOR WEB:</h2>
         <div class="categorias-grid">
-            <div class="categoria">
+            <div class="categoria" data-modal="projeto1">
                 <img src="img/mirateki.png" alt="Preview de um e-commerce de mangás">
                 <h3>Mirateki</h3>
             </div>
-            <div class="categoria">
+
+            <div class="categoria" data-modal="projeto2">
                 <img src="img/wohub.png" alt="Preview de um site">
                 <h3>Wo Hub</h3>
             </div>
         </div>
         <h2 style="margin-top: 25px;"></h2>
-        <h2>OUTROS:</h2>
+        <h2>OTHERS:</h2>
         <div class="categorias-grid">
-            <div class="categoria">
+            <div class="categoria" data-modal="projeto3">
                 <img src="img/projetoalcancar.png" alt="Preview de um app mobile">
                 <h3>Projeto Alcançar</h3>
             </div>
-            <div class="categoria">
+            <div class="categoria" data-modal="projeto4">
                 <img src="img/pomodoro.png" alt="Pomodoro Timer">
                 <h3>Pomodoro Timer</h3>
             </div>
         </div>
-</div>
     </section>
+
+    <!-- Pop-ups -->
+<div class="modal" id="projeto1">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video autoplay muted loop>
+            <source src="videos/mirateki.mp4" type="video/mp4">
+        </video>
+        <h2>Mirateki</h2>
+        <p>Website conceitual baseado em um e-commerce de mangás que possui os produtos e suas categorias, construído em equipe como desafio do programa BFD pela Softex.</p>
+    </div>
+</div>
+
+<div class="modal" id="projeto2">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video autoplay muted loop>
+            <source src="videos/wohub.mp4" type="video/mp4">
+        </video>
+        <h2>Wo Hub</h2>
+        <p>Website para uma plataforma de aprendizado contínuo, comunidade e suporte entre mulheres dentro da área de TI.</p>
+    </div>
+</div>
+
+<div class="modal" id="projeto3">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video autoplay muted loop>
+            <source src="videos/projetoalcancar.mp4" type="video/mp4">
+        </video>
+        <h2>Projeto Alcançar</h2>
+        <p>Protótipo para um aplicativo mobile de doações de comida, roupas, material escolar e higiene pessoal. Trazendo como inovação o papel de um entregador como ponte entre doadores e ONGs.</p>
+    </div>
+</div>
+
+<div class="modal" id="projeto4">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <video autoplay muted loop>
+            <source src="videos/pomodoro.mp4" type="video/mp4">
+        </video>
+        <h2>Pomodoro Timer</h2>
+        <p>Programa que traz um alarme personalizável, seguindo o padrão pomodoro de focoXpausa. Lógica construída com python e tkinter para a interface.</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 
     <section id="contact" class="contact">
         <div class="logo">
             <center><img src="img/contact.png" alt="Contact"></center>
         </div>
-        <h2>You can find me at:</h2>
+        <h2>You can reach to me at:</h2>
         <h4><strong>email:</strong> mclaricesilva04@gmail.com</h4>
         <h4><strong>phone:</strong> (81) 99189-8083</h4>
     </section>
