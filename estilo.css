@@ -28,6 +28,10 @@ section{
     padding: 0 20px;
 }
 
+.container h2{
+    font-size: 21px;
+}
+
 /* Header */
 header {
     position: absolute;
@@ -194,7 +198,7 @@ nav ul li a.ativo {
     margin-bottom: 15px;
     border-bottom: #e0aef0 1px solid;
     color: #f7fbff;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
     position: relative;
     padding-bottom: 15px;
@@ -228,7 +232,7 @@ nav ul li a.ativo {
 
 .categoria img {
     width: 100%;
-    height: 150px;
+    height: 130px;
     display: block;
     object-fit: cover;
 
@@ -244,7 +248,7 @@ nav ul li a.ativo {
 .categoria h3 {
     padding: 10px;
     color: #151718;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /* Pop-ups */
